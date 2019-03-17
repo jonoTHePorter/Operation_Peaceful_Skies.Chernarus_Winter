@@ -57,37 +57,17 @@ Player Damage Resistance is 4<br/>
 player createDiaryRecord ["Diary",["Signals","
 SIGNALS AND CALLSIGNS<br/>
 All Block channels are on short range 343.<br/>
-Callsigns are adjusted to match platoon structure. Company level teams are all on block 2.<br/>
-Platoon Commanders and Company level officers communicate via Company Net, and thus 2 UHF radios are required for Platoon Leaders to communicate between Platoon Net and Company Net effectively.<br/><br/>
-
-Channel 1 UHF: Company Net<br/>
---Block 2 Chan. 1 - Company Actual<br/>
---Block 2 Chan. 2 - Kilo Team<br/>
---Block 2 Chan. 3 - Snake Team<br/>
---Block 2 Chan. 4 - Doom 1 and 2 cross-tank comms<br/>
---Block 2 Chan. 9 - Doom aux. comms<br/>
---Block 2 Chan. 5,6,7,8 - Sierra 1,2,3,4<br/><br/>
-
-Channel 2 UHF: 1st Platoon Net<br/>
---Block 1 Chan. 1 - Alpha-1<br/>
---Block 1 Chan. 2 - Bravo-1<br/>
---Block 1 Chan. 3 - Charlie-1<br/>
---Block 1 Chan. 4 - Delta-1<br/>
+Callsigns are adjusted to match platoon structure.<br/>
+<br/>
+Channel 1 UHF: Platoon Net<br/>
+--Block 1 Chan. 1 - Alpha<br/>
+--Block 1 Chan. 2 - Bravo<br/>
+--Block 1 Chan. 3 - Charlie<br/>
+--Block 1 Chan. 4 - Delta<br/>
 --Block 1 Chan. 5 - 1st Plt Actual<br/><br/>
 
-Channel 3 UHF: 2nd Platoon Net<br/>
---Block 1 Chan. 6 - Alpha-2<br/>
---Block 1 Chan. 7 - Bravo-2<br/>
---Block 1 Chan. 8 - Charlie-2<br/>
---Block 1 Chan. 9 - Delta-2<br/>
---Block 1 Chan. 10 - 2nd Plt Actual<br/><br/>
-
-Channel 4 UHF: Air Net + JTAC<br/>
-Channel 5 UHF: Eagle Team Aux. Internal comms<br/><br/>
-
-ORDER OF SUCCESSION<br/>
-In case of officer fatalities, chain of command transfer goes as follows:<br/>
-Company Actual -> Company 2IC -> 1st Platoon Leader -> 2nd Platoon Leader -> Doom 1 -> Doom 2 -> Agreed upon by squad NCOs.<br/><br/>
+Channel 2 UHF: Air Net + JTAC<br/>
+Channel 3 UHF: Eagle Team Aux. Internal comms<br/><br/>
 "]];
 
 // Intel
@@ -111,7 +91,7 @@ Composition:<br/>
 -Primary base of operations is AFB Balota.<br/>
 -The unit is equipped for fighting in winter conditions and protecting Camp Hope and Port Osprey.<br/>
 -Sector forces are augmented by on-site Eagle Squadron, an Osean MiG-29 multirole squadron built as a QRF support element.<br/>
--Inventory: x5 GAZ Tigr MRAP, x4 Pandur II IFV, x2 T-90A Tank, x1 Supply Chinook, various relief and logistics vehicles.<br/>
+-Inventory: x5 GAZ Tigr MRAP, x2 T-90A Tank, x1 Supply Chinook, various relief and logistics vehicles.<br/>
 "]];
 
 // Execution
@@ -124,7 +104,6 @@ Standing Orders:<br/>
 - Do not engage hostiles until you ID hostiles and are fired upon.<br/><br/>
 
 ``Operation Peaceful Skies VI`` OPORD:<br/>
-- Deliver supply vehicles to Port Osprey.<br/>
 - Deliver supply vehicles to Camp Hope.<br/><br/>
 
 ``Operation Backhand`` contingency order:<br/>
@@ -132,7 +111,6 @@ Standing Orders:<br/>
 - Conduct a counter-offensive into Belkan territory.<br/>
 - Seize the Gas refinery<br/>
 - Seize the Comms tower<br/>
-- Seize the Power plant<br/>
 - Capture AFB Helios and arrest any surrendering Belkans<br/>
 
 "]];
