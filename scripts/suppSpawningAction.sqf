@@ -23,12 +23,12 @@ lmf_spawnerCreateObject = {
 if !(isNil "ammoSpawner") then {
 	ammoSpawner setObjectTexture [0, "images\supplies.jpg"];
 	private _ammoType1 = ["ammoType1","Vehicle Supplies","\A3\ui_f\data\map\vehicleicons\iconCrateAmmo_ca.paa",{["Box_NATO_AmmoVeh_F"] call lmf_spawnerCreateObject;},{true}] call ace_interact_menu_fnc_createAction;
-	// private _ammoType2 = ["ammoType2","Osea Supplies","\A3\ui_f\data\map\vehicleicons\iconCrateAmmo_ca.paa",{["CargoNet_01_box_F"] call lmf_spawnerCreateObject;},{true}] call ace_interact_menu_fnc_createAction;
+	private _ammoType2 = ["ammoType2","Osea Supplies","\A3\ui_f\data\map\vehicleicons\iconCrateAmmo_ca.paa",{["CargoNet_01_box_F"] call lmf_spawnerCreateObject;},{true}] call ace_interact_menu_fnc_createAction;
 	private _ammoType3 = ["ammoType3","Yuktobania Supplies","\A3\ui_f\data\map\vehicleicons\iconCrateAmmo_ca.paa",{["C_IDAP_supplyCrate_F"] call lmf_spawnerCreateObject;},{true}] call ace_interact_menu_fnc_createAction;
 	private _ammoMedic = ["ammoMedic","Medical Supplies","\A3\ui_f\data\map\vehicleicons\pictureHeal_ca.paa",{["ACE_medicalSupplyCrate_advanced"] call lmf_spawnerCreateObject;},{true}] call ace_interact_menu_fnc_createAction;
 
 	[ammoSpawner, 0, ["ACE_MainActions"], _ammoType1] call ace_interact_menu_fnc_addActionToObject;
-	// [ammoSpawner, 0, ["ACE_MainActions"], _ammoType2] call ace_interact_menu_fnc_addActionToObject;
+	[ammoSpawner, 0, ["ACE_MainActions"], _ammoType2] call ace_interact_menu_fnc_addActionToObject;
 	[ammoSpawner, 0, ["ACE_MainActions"], _ammoType3] call ace_interact_menu_fnc_addActionToObject;
 	[ammoSpawner, 0, ["ACE_MainActions"], _ammoMedic] call ace_interact_menu_fnc_addActionToObject;
 };
