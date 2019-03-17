@@ -50,5 +50,6 @@ if (_type == "C_IDAP_supplyCrate_F") exitWith {
 	_crate addItemCargoGlobal ["rhs_fgm148_magazine_AT", 5];
 	_crate addItemCargoGlobal ["SmokeShell", 10];
 	_crate addItemCargoGlobal ["rhs_mag_rgd5", 10];
+	_crate addWeaponCargoGlobal ["launch_NLAW_F", 5];
 	_crate setVariable ["ace_dragging_ignoreWeightDrag", true, true];
 };
