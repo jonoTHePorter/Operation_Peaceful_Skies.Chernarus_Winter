@@ -88,7 +88,8 @@
     private _pos = (_this select 0);
     private _types = [
       "fighter",
-      "bomber"
+      "bomber",
+      "fatass"
     ];
     private _dialogResult =
     [

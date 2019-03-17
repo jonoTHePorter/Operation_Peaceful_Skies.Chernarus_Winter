@@ -24,7 +24,7 @@ class Extended_InitPost_EventHandlers {
   };
 
   class B_Heli_Transport_03_F {
-    init = "[(_this select 0), 250] call ace_cargo_fnc_setSpace;[(_this select 0), 10, ""ACE_Track"", true] call ace_repair_fnc_addSpareParts;[(_this select 0), 10, ""ACE_Wheel"", true] call ace_repair_fnc_addSpareParts;[(_this select 0)] call misc_fnc_respawnVic";
+    init = "if (local (_this select 0)) then {[(_this select 0), 250] call ace_cargo_fnc_setSpace;[(_this select 0), 10, ""ACE_Track"", true] call ace_repair_fnc_addSpareParts;[(_this select 0), 10, ""ACE_Wheel"", true] call ace_repair_fnc_addSpareParts;};[(_this select 0)] call misc_fnc_respawnVic";
   };
 
   class rhs_tigr_m_msv {

@@ -1,12 +1,12 @@
 if !(["diw_spawnJet", _this] call spawner_fnc_isSpawner) exitWith {};
 params [["_jetType", "fighter"],["_amount", 1]];
 
-private _type = "itc_Gripen";
-private _pyln = ["PylonRack_Missile_AMRAAM_C_x1","PylonRack_Missile_AMRAAM_C_x1","itc_hp_bru55_ITC_ammo_gbu38","itc_hp_bru55_ITC_ammo_gbu38","itc_hp_lau117_Missile_AGM_02_F","itc_hp_lau117_Missile_AGM_02_F"] ;
+private _type = "B_Plane_Fighter_01_F";
+private _pyln = ["PylonRack_Missile_AMRAAM_D_x2","PylonRack_Missile_AGM_02_x1","PylonRack_Missile_AMRAAM_D_x2","PylonRack_Missile_AMRAAM_D_x2","PylonMissile_Missile_BIM9X_x1","PylonMissile_Missile_BIM9X_x1","PylonMissile_Missile_AMRAAM_D_INT_x1","PylonMissile_Missile_AMRAAM_D_INT_x1","PylonMissile_Missile_AMRAAM_D_INT_x1","PylonMissile_Missile_AMRAAM_D_INT_x1","PylonMissile_Missile_AMRAAM_D_INT_x1","PylonMissile_Missile_AMRAAM_D_INT_x1"];
 
 if (_jetType != "fighter") then {
 	_type = "B_plane_CAS_01_dynamicLoadout_F";
-	_pyln = ["UK3CB_BAF_PylonPod_12Rnd_CRV7_PG_FAT","PylonRack_12Rnd_missiles","PylonRack_1Rnd_AAA_missiles","PylonMissile_1Rnd_BombCluster_01_F","PylonMissile_1Rnd_BombCluster_01_F","PylonMissile_1Rnd_BombCluster_01_F","PylonMissile_1Rnd_BombCluster_01_F","PylonRack_1Rnd_AAA_missiles","PylonRack_12Rnd_missiles","UK3CB_BAF_PylonPod_12Rnd_CRV7_PG_FAT"];
+	_pyln = ["PylonRack_1Rnd_LG_scalpel","PylonRack_7Rnd_Rocket_04_HE_F","PylonRack_3Rnd_Missile_AGM_02_F","PylonMissile_1Rnd_Bomb_04_F","PylonMissile_1Rnd_Bomb_04_F","PylonMissile_1Rnd_Bomb_04_F","PylonMissile_1Rnd_Bomb_04_F","PylonRack_1Rnd_LG_scalpel","PylonRack_7Rnd_Rocket_04_AP_F","PylonRack_1Rnd_LG_scalpel"]
 };
 
 if (_jetType == "fatass") then {

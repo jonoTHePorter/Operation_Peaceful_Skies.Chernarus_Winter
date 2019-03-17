@@ -85,18 +85,6 @@ player addEventHandler ["Killed", {
 // supply spawn ace actions (requires laptop named "ammoSpawner" and helipad named "ammoPad")
 [] call compile preprocessFileLineNumbers "scripts\suppSpawningAction.sqf";
 
-if (ace_advanced_fatigue_enabled) then {
-  [] spawn {
-    while {ace_advanced_fatigue_enabled} do { // sorry for I have sinned
-      ace_advanced_fatigue_muscleDamage = 0;
-      sleep 60;
-    };
-  };
-};
-
-ace_hearing_damageCoefficent = 0;
-ace_hearing_deafnessDV  = 0;
-
 [] spawn {
   sleep 10;
   if !(isNull (getAssignedCuratorLogic player)) then {

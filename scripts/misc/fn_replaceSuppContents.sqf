@@ -27,6 +27,7 @@ if (_type == "Box_NATO_AmmoVeh_F") exitWith {
 	[_crate, 4, "ACE_Track", true] call ace_repair_fnc_addSpareParts;
 	[_crate, 4, "ACE_Wheel", true] call ace_repair_fnc_addSpareParts;
 	_crate addItemCargoGlobal ["ToolKit", 3];
+	_crate setVariable ["ace_dragging_ignoreWeightDrag", true, true];
 };
 //APPLY CRATE SPECIFIC THINGS (OSEA)
 if (_type == "CargoNet_01_box_F") exitWith {
@@ -37,6 +38,7 @@ if (_type == "CargoNet_01_box_F") exitWith {
 	_crate addItemCargoGlobal ["rhs_fgm148_magazine_AT", 5];
 	_crate addItemCargoGlobal ["SmokeShell", 5];
 	_crate addItemCargoGlobal ["rhs_mag_m67", 5];
+	_crate setVariable ["ace_dragging_ignoreWeightDrag", true, true];
 };
 
 //APPLY CRATE SPECIFIC THINGS (Yuktobania)
@@ -48,4 +50,5 @@ if (_type == "C_IDAP_supplyCrate_F") exitWith {
 	_crate addItemCargoGlobal ["rhs_fgm148_magazine_AT", 5];
 	_crate addItemCargoGlobal ["SmokeShell", 5];
 	_crate addItemCargoGlobal ["rhs_mag_rgd5", 5];
+	_crate setVariable ["ace_dragging_ignoreWeightDrag", true, true];
 };
