@@ -31,24 +31,6 @@ class CfgFunctions {
       class getLoadout{};
     };
   };
-  class fpa_ai {
-    tag = "fpa_ai";
-    class functions {
-      file = "fparma\functions\ai";
-      class cache{};
-      class unCache{};
-    };
-  };
-  class fpa_jrm {
-    tag = "fpa_jrm";
-    class functions {
-      file = "fparma\functions\jrm";
-      class forceRespawn{};
-      class handleKilled{};
-      class handleRespawn{};
-      class init{};
-    };
-  };
 };
 
 class CfgDebriefingSections {
