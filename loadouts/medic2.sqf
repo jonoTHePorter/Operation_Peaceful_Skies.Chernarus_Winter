@@ -18,7 +18,7 @@ removeBackpack _unit;
 _unit addHeadgear "rhsgref_6b27m_ttsko_urban";
 _unit forceAddUniform "rhsgref_uniform_ttsko_urban";
 _unit addVest "V_PlateCarrier2_blk";
-_unit addBackpack "UK3CB_BAF_B_Bergen_OLI_Rifleman_A";
+_unit addBackpack "B_Carryall_khk";
 clearAllItemsFromBackpack _unit;
 {_unit linkItem _x} forEach ["ItemMap","ItemCompass","ItemWatch","ItemGPS"];
 // Uniform items

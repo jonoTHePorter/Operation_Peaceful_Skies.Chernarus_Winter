@@ -4,7 +4,7 @@ params ["_unit", "_type"];
 // Fake backpack to store magazines and then load them. This ensures that weapons are loaded
 _unit addBackpack "ACE_FakeBackpack";
 // Primary weapon
-_unit addMagazine "rhsusf_20Rnd_762x51_m118_special_Mag";
+_unit addMagazine "ACE_20Rnd_762x51_Mag_tracer_green";
 _unit addWeapon "rhs_weap_m14ebrri";
 _unit addPrimaryWeaponItem "rhsusf_acc_ACOG_USMC";
 _unit addPrimaryWeaponItem "rhsusf_acc_harris_bipod";
@@ -28,6 +28,6 @@ _unit addItemToUniform "ACE_tourniquet";
 // Vest items
 _unit addItemToVest "SmokeShell";
 {_unit addItemToVest "rhs_mag_m67"} count [1,2];
-{_unit addItemToVest "rhsusf_20Rnd_762x51_m118_special_Mag"} count [1,2,3,4,5,6,7];
+{_unit addItemToVest "ACE_20Rnd_762x51_Mag_tracer_green"} count [1,2,3,4,5,6,7];
 // Radios
 _unit addItemToUniform "ACRE_PRC343";

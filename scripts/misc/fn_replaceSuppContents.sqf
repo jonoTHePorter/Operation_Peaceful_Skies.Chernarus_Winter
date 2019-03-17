@@ -33,7 +33,7 @@ if (_type == "Box_NATO_AmmoVeh_F") exitWith {
 if (_type == "CargoNet_01_box_F") exitWith {
 	["misc_makeCarryable",[_crate]] call CBA_fnc_globalEvent;
 	_crate addItemCargoGlobal ["rhs_mag_30Rnd_556x45_M855_PMAG", 25]; 
-	_crate addItemCargoGlobal ["rhsusf_20Rnd_762x51_m118_special_Mag", 15];
+	_crate addItemCargoGlobal ["ACE_20Rnd_762x51_Mag_tracer_green", 15];
 	_crate addItemCargoGlobal ["rhs_mag_100Rnd_556x45_M855_cmag", 15];
 	_crate addItemCargoGlobal ["rhs_fgm148_magazine_AT", 5];
 	_crate addItemCargoGlobal ["SmokeShell", 5];
@@ -44,11 +44,11 @@ if (_type == "CargoNet_01_box_F") exitWith {
 //APPLY CRATE SPECIFIC THINGS (Yuktobania)
 if (_type == "C_IDAP_supplyCrate_F") exitWith {
 	["misc_makeCarryable",[_crate]] call CBA_fnc_globalEvent;
-	_crate addItemCargoGlobal ["rhs_30Rnd_762x39mm_polymer_89", 25]; 
-	_crate addItemCargoGlobal ["rhs_10Rnd_762x54mmR_7N1", 15];
-	_crate addItemCargoGlobal ["rhs_100Rnd_762x54mmR", 15];
+	_crate addItemCargoGlobal ["rhs_30Rnd_762x39mm_polymer_89", 50]; 
+	_crate addItemCargoGlobal ["rhs_10Rnd_762x54mmR_7N1", 25];
+	_crate addItemCargoGlobal ["rhs_100Rnd_762x54mmR", 20];
 	_crate addItemCargoGlobal ["rhs_fgm148_magazine_AT", 5];
-	_crate addItemCargoGlobal ["SmokeShell", 5];
-	_crate addItemCargoGlobal ["rhs_mag_rgd5", 5];
+	_crate addItemCargoGlobal ["SmokeShell", 10];
+	_crate addItemCargoGlobal ["rhs_mag_rgd5", 10];
 	_crate setVariable ["ace_dragging_ignoreWeightDrag", true, true];
 };
