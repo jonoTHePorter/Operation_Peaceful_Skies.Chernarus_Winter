@@ -1,4 +1,4 @@
-// ["B_Soldier_F", "example.sqf"]
+// ["B_engineer_F", "example.sqf"]
 params ["_unit", "_type"];
 
 // Fake backpack to store magazines and then load them. This ensures that weapons are loaded
@@ -12,8 +12,8 @@ _unit addWeapon "rhsusf_weap_glock17g4";
 removeBackpack _unit;
 
 // Containers / clothes
-_unit addHeadgear "H_Booniehat_khk";
-_unit forceAddUniform "UK3CB_BAF_U_Smock_Arctic";
+_unit addHeadgear "rhs_Booniehat_ucp";
+_unit forceAddUniform "rhs_uniform_acu_ucp";
 _unit addVest "V_PlateCarrier1_blk";
 _unit addBackpack "B_FieldPack_blk";
 clearAllItemsFromBackpack _unit;
@@ -24,7 +24,6 @@ _unit addItemToUniform "ACE_tourniquet";
 {_unit addItemToUniform "ACE_epinephrine"} count [1,2];
 {_unit addItemToUniform "ACE_morphine"} count [1,2,3,4,5];
 {_unit addItemToUniform "ACE_fieldDressing"} count [1,2,3,4,5];
-{_unit addItemToUniform "rhsusf_mag_17Rnd_9x19_JHP"} count [1,2];
 // Vest items
 _unit addItemToVest "SmokeShell";
 {_unit addItemToVest "rhs_mag_m67"} count [1,2];
@@ -33,3 +32,8 @@ _unit addItemToVest "SmokeShell";
 _unit addItemToBackpack "ToolKit";
 // Radios
 _unit addItemToUniform "ACRE_PRC343";
+
+// leader radio
+if (toLower (str _unit) in ["k1"]) then {
+_unit addItemToVest "ACRE_PRC148";
+};

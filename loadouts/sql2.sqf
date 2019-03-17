@@ -38,4 +38,4 @@ _unit addItemToBackpack "rhs_GRD40_Red";
 {_unit addItemToBackpack "rhs_GRD40_White"} count [1,2];
 // Radios
 _unit addItemToUniform "ACRE_PRC343";
-_unit addItemToUniform "ACRE_PRC148";
+_unit addItemToBackpack "ACRE_PRC148";

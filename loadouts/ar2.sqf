@@ -18,6 +18,7 @@ _unit forceAddUniform "rhsgref_uniform_ttsko_urban";
 _unit addVest "V_PlateCarrier2_blk";
 _unit addBackpack "UK3CB_BAF_B_Bergen_OLI_Rifleman_A";
 clearAllItemsFromBackpack _unit;
+{_unit linkItem _x} forEach ["ItemMap","ItemCompass","ItemWatch","ItemGPS"];
 // Uniform items
 _unit addItemToUniform "ACE_tourniquet";
 {_unit addItemToUniform "ACE_epinephrine"} count [1,2];
