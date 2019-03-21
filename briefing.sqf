@@ -30,7 +30,7 @@ player createDiaryRecord ["Diary",["Classified Intel","
 <font color='#4ab60c' size='16'>CLASSIFIED INTEL:</font><br/>
 SENSITIVE MATERIAL. DO NOT DISSEMINATE WITHOUT PRIOR APPROVAL FROM OSEAN COMMANDING GENERAL.<br/>
 <br/>
-Yesterday at 1900 hours, a Belkan reconnaissance team made their way into an old castle and have been suspected to be surveying peacekeeping forces equipment, personnel movement, and OP locations. Intelligence has determined that this recon element is determining the strength of friendly units for a possible future attack by the Belkan forces. However, there is no immediate signs of aggression of massing of troops for a surprise attack.<br/>
+Yesterday at 1900 hours, a Belkan reconnaissance team made their way into <marker name='marker_castle'>an old castle</marker> and have been suspected to be surveying peacekeeping forces equipment, personnel movement, and OP locations. Intelligence has determined that this recon element is determining the strength of friendly units for a possible future attack by the Belkan forces. However, there is no immediate signs of aggression of massing of troops for a surprise attack.<br/>
 <br/>
 You have been tasked with infiltrating the castle that the recon team resides in and eliminate any personnel within the compound. This will bring about a confrontation and allow us to enter into the Belkan territory and occupy their pocket.
 <br/><br/>
@@ -72,7 +72,7 @@ Channel 3 UHF: Eagle Team Aux. Internal comms<br/><br/>
 
 // Intel
 player createDiaryRecord ["Diary",["Intel","
-HOSTILE FORCES<br/>
+<font color='#b60c0c' size='18'>HOSTILE FORCES:</font><br/>
 Disposition:<br/>
 - The Belkan forces are assembled in the northern half of the Chernogorsk Safe Area sector, behind the coastline of the Great Lakes. They are effectively encircled from all sides by peacekeeping forces.<br/>
 - As a consequence, the belkan troops in your AOR are reliant on an airbridge formed in their regional base of operations, AFB Helios.<br/>

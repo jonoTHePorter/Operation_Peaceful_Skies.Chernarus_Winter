@@ -8,22 +8,22 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=5854;
+		nextID=5855;
 	};
 	class MarkerIDProvider
 	{
-		nextID=25;
+		nextID=26;
 	};
 	class LayerIndexProvider
 	{
-		nextID=617;
+		nextID=635;
 	};
 	class Camera
 	{
-		pos[]={4937.5313,36.206684,2381.4468};
-		dir[]={0.081687912,-0.50367522,-0.86004144};
-		up[]={0.047626659,0.86388963,-0.5014258};
-		aside[]={-0.99553657,-1.2182863e-007,-0.094557881};
+		pos[]={5778.521,825.10077,3100.3538};
+		dir[]={0.35378569,-0.56856662,0.74271911};
+		up[]={0.24451241,0.82263017,0.51331794};
+		aside[]={0.9028393,-4.4936314e-007,-0.43005472};
 	};
 };
 binarizationWanted=0;
@@ -13336,7 +13336,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=496;
+		items=497;
 		class Item0
 		{
 			dataType="Logic";
@@ -51337,6 +51337,14 @@ class Mission
 			name="attacc_2";
 			type="Empty";
 			id=5814;
+		};
+		class Item496
+		{
+			dataType="Marker";
+			position[]={6539.9824,391.98392,5599.2773};
+			name="marker_castle";
+			type="Empty";
+			id=5854;
 		};
 	};
 };
