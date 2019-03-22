@@ -3,7 +3,7 @@
 */
 #define CFG_ON_LOAD_TITLE "Peaceful Skies" // displayed during mission load. keep it short
 #define CFG_ON_LOAD_TEXT "Skies so deep blue you'd think it is the ocean." // displayed during mission load
-#define CFG_LOBBY_TITLE "CO99 - Peaceful Skies" // mission selection screen name. format: <TYPE><SLOTS> - <NAME> <version>
+#define CFG_LOBBY_TITLE "CO99 - Peaceful Skies FPARMA Edition" // mission selection screen name. format: <TYPE><SLOTS> - <NAME> <version>
 #define CFG_AUTHOR "jonoPorter | 2019" // shown during load screen
 // shown in load screen, you can put a jpeg file in the mission folder and change this to "loading.jpg"
 // the default is fp logo in the modpack
