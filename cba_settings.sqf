@@ -114,3 +114,10 @@ force ace_rearm_supply = 1;
 
 // ACE Logistics
 force ace_cargo_paradropTimeCoefficent = 0.2;
+
+// ACEX Headless
+force acex_headless_delay = 60;
+force acex_headless_enabled = true;
+force acex_headless_endMission = 2;
+force acex_headless_log = false;
+force acex_headless_transferLoadout = 1;
